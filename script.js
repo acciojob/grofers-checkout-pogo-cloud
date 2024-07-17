@@ -15,6 +15,7 @@ const getSum = (event) => {
 		//console.log(sum);
 	}
 	newCol.innerText=sum;
+	newRow.id = "ans";
 	newRow.append(newCol);
 	tables.append(newRow);
 	
